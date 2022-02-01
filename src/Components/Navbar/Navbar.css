@@ -1,0 +1,79 @@
+
+
+.nav-main {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+    height: 60px;
+}
+.logo {
+    position: relative;
+    left: 0px;
+    top: 13px;
+    width: 160px;
+    height: auto;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-left: 40px;
+}
+.menu {
+    position: absolute;
+    height: 50px;
+    justify-items: center;
+    justify-content: center;
+    display: inline-block;
+    right: 355px;
+    top: 5px;
+    color: white;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+     list-style: none;
+}
+.menu ul li {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 0px ;
+    height: 20px;
+    transition: height 0.1s;
+    transition-timing-function:ease-in;
+    cursor: pointer;
+    
+}
+.menu ul li:hover {
+    color: rgb(255, 133, 133);
+    border-bottom:3px solid red;
+    height:39px;
+
+}
+.connect-button {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    font-family: "Montserrat",sans-serif;
+    color: rgb(112, 109, 129);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    border:0px ;
+    background-color: rgb(255, 255, 255);
+}
+.connect-button:hover{background-color: rgb(184, 184, 184);}
+.connected {
+    height: 12px;
+    width: 12px;
+    border:none;
+    border-radius: 100%;
+    position: absolute;
+    right: 170px;
+    top: 24px;
+}
