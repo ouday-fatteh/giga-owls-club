@@ -26,7 +26,7 @@
     justify-content: center;
     display: inline-block;
     right: 355px;
-    top: 5px;
+    top: 4px;
     color: white;
 }
 .menu ul {
@@ -76,4 +76,23 @@
     position: absolute;
     right: 170px;
     top: 24px;
+}
+.EthBalance{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    color:white;
+    top: 18px;
+    right:220px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    user-select: none;  
+}
+#img1{
+    position: relative;
+    top:4px;
 }
