@@ -1,0 +1,76 @@
+.main{
+    font-family:"Montserrat",sans-serif;
+    background-color: rgb(53, 53, 53);
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    margin-left: 280px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.form-1{
+    position: absolute;
+    top: 25%;
+    display: flexbox;
+    flex-direction: column;
+    gap: 20px;
+
+}
+input[type="text"] {
+    width: 275px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    margin-left:20px;
+    padding-left: 10px;
+    outline: none;
+}
+input[type="email"] {
+    width: 297px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    margin-left:25px;
+    padding-left: 10px;
+    outline: none;
+}
+textarea[type="text"]{
+    width: 600px;
+    height: 150px;
+    border: 0px;
+    border-radius: 5px;
+    margin:20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    outline: none;
+    resize: none;
+}
+select {
+    width: 310px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    margin-left:25px;
+    padding-left: 10px;
+    outline: none;
+}
+select[multiple] option{
+    height: 40px;
+}
+input[type="submit"]{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border:0px;
+    background-color: rgb(6, 168, 0);
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    color: white;
+    left: 165px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(4, 105, 0);
+}

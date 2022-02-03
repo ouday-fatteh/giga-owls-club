@@ -1,0 +1,10 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.carousel-cont{
+    position: absolute;
+    width: 80%;
+    height: 70vh;
+    top: 140px;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-family: "Montserrat", sans-serif;
+}
